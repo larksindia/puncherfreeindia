@@ -1,0 +1,138 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar {
+    position: initial;
+}
+
+.clearfix,
+form,
+.payment_methods li {
+    display: block !important;
+}
+
+#acc-slider {
+    width: 100% !important;
+}
+
+.liteAccordion .slide>div {
+    top: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #CC66FF;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #B80000;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #29A629;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0042A3;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlay4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FF9933;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlay5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #CC66FF;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.itemWrap:hover .overlay {
+    width: 100%;
+    padding: 20px;
+}
+
+.itemWrap:hover .overlay1 {
+    width: 100%;
+    padding: 20px;
+}
+
+.itemWrap:hover .overlay2 {
+    width: 100%;
+    padding: 20px;
+}
+
+.itemWrap:hover .overlay3 {
+    width: 100%;
+    padding: 20px;
+}
+
+.itemWrap:hover .overlay4 {
+    width: 100%;
+    padding: 20px;
+}
+
+.itemWrap:hover .overlay5 {
+    width: 100%;
+    padding: 20px;
+}
+
+.gen-overlay ul li {
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.gen-overlay ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.mail_link{
+    color: #fff !important;
+}
