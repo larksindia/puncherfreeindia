@@ -133,6 +133,15 @@ form,
     font-size: 16px;
     text-decoration: none;
 }
-.mail_link{
+
+.mail_link {
     color: #fff !important;
+}
+
+.custom-nav-tabs>li.active>a,
+.custom-nav-tabs>li.active>a:focus,
+.custom-nav-tabs>li.active>a:hover {
+    background: #eee;
+    border-top: 1px solid blue;
+    border-radius: 0;
 }
