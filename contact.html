@@ -160,45 +160,8 @@
                     </h4>
                 </div>
                 <h4 style="font-family:roboto condensed;"><u>Locate US <i class="fas fa-map-pin"></i></u></h4>
-                <!-- start google map -->
-                <div class="google_map">
-                    <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJUQD5l2M9rjsRm74UDxVTxKQ&key=AIzaSyCZQ7Lx2Fdo9bWawJIA-mVVjXhA_AcuAx4" width="100%" height="450px" frameborder="0" style="border:0"></iframe> -->
-                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                    <div style='overflow:hidden;height:450px;width:100%;'>
-                        <div id='gmap_canvas' style='height:450px;width:100%;'></div>
-                        <div><small><a href="embedgooglemaps.com/">https://embedgooglemaps.com/en/</a></small></div>
-                        <div><small><a href=""></a></small></div>
-                        <style>
-                            #gmap_canvas img {
-                                max-width: none!important;
-                                background: none!important
-                            }
-                        </style>
-                    </div>
-                    <script type='text/javascript'>
-                        function init_map() {
-                            var myOptions = {
-                                zoom: 17,
-                                center: new google.maps.LatLng(12.9965802, 77.57873960000006),
-                                mapTypeId: google.maps.MapTypeId.ROADMAP
-                            };
-                            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-                            marker = new google.maps.Marker({
-                                map: map,
-                                position: new google.maps.LatLng(12.9965802, 77.57873960000006)
-                            });
-                            infowindow = new google.maps.InfoWindow({
-                                content: '<strong>Puncture Free India</strong><br>No.17, 4th Cross Rd, Muneshwara Block, Palace Guthalli, Bengaluru, Karnataka 560003<br>'
-                            });
-                            google.maps.event.addListener(marker, 'click', function() {
-                                infowindow.open(map, marker);
-                            });
-                            infowindow.open(map, marker);
-                        }
-                        google.maps.event.addDomListener(window, 'load', init_map);
-                    </script>
-                </div>
-                <!-- end google map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248730.1611371027!2d77.4363397607286!3d13.073260218507864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae163bdbda973b%3A0xcd654947c1612417!2sPuncture+Free+India!5e0!3m2!1sen!2sin!4v1522497032494"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="mailmunch-forms-after-post" style="display: none !important;"></div>
             <div style="clear:both;"></div>
